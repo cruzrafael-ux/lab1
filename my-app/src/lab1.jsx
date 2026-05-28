@@ -1,6 +1,4 @@
-import { createRoot } from "react-dom/client";
-
-const root = createRoot(document.getElementById("root"));
+export default MyHobby
 
 function MyHobby() {
     return ( 
@@ -11,26 +9,22 @@ function MyHobby() {
         Initially, the choice in picking a champion was very daunting. Nevertheless, I settled my first champion to
         be Jax, the Grandmaster at Arms.
 
-        <br/>
+        <br/><br/>
         Before talking about Jax, I want to clarify how a user would win at a classical game. A total of 5 people are assigned
         to a team with specific roles. While defending minions and structures, the team works with a singular goal: storm the enemy's base
         and disrupt their Nexus (Important Structure). Additionally, objectives (Monsters) will spawn in obscured
         parts of the map. They will give permanent or strong temporary buffs that will benefit a user's team.
         Ultimately, there's multiple ways to win a game as it progresses. 
 
-        <br/>
+        <br/><br/>
         Personally, I prefer Jax's way of winning a game. He is a bruiser champion with a role fit for the top lane 
         (a lane that is towards the upper side of the map). My champion's playstyle revolves around destroying enemy
         structures without engaging in huge drawn fights with multiple people. Jax prefers to shutdown one opponent and
         cause pressure on the map as the game progresses. 
 
-        <br/>
+        <br/><br/>
         "Who wants a piece of the champ?!"
        </p>
        </div>
     )
 }
-
-root.render(
-        <MyHobby />
-)
