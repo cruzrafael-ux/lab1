@@ -1,6 +1,6 @@
-import { createRoot } from 'react-dom/client';
+import { createRoot } from "react-dom/client";
 
-const root = createRoot(document.getElementById('root'));
+const root = createRoot(document.getElementById("root"));
 
 function MyHobby() {
     return ( 
