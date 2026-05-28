@@ -4,7 +4,7 @@ const root = createRoot(document.getElementById("root"));
 
 function MyHobby() {
     return ( 
-        <main>
+        <div>
        <p>Occassionally, I enjoy playing a game called
         League of Legends. League or LoL is a MOBA (Multiplayer Online Battle Arena) designed by indie studio Riot Games.
         I started playing it in 2017 and the rest is history. LoL is a game that has 172 champions to choose from.
@@ -27,7 +27,7 @@ function MyHobby() {
         <br/>
         "Who wants a piece of the champ?!"
        </p>
-       </main>
+       </div>
     )
 }
 
