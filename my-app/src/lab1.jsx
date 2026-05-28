@@ -1,4 +1,5 @@
 export default MyHobby
+import Jax from './assets/Jax.png'
 
 function MyHobby() {
     return ( 
@@ -24,6 +25,9 @@ function MyHobby() {
 
         <br/><br/>
         "Who wants a piece of the champ?!"
+
+        <br/><br/>
+        <img src={Jax} width="400" height="200" alt="Jax" />
        </p>
        </div>
     )
