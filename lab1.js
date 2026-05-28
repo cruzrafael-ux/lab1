@@ -3,7 +3,9 @@ import { createRoot } from 'react-dom/client';
 const root = createRoot(document.getElementById('root'));
 
 function MyHobby() {
-    return ( <p>Occassionally, I enjoy playing a game called
+    return ( 
+        <main>
+       <p>Occassionally, I enjoy playing a game called
         League of Legends. League or LoL is a MOBA (Multiplayer Online Battle Arena) designed by indie studio Riot Games.
         I started playing it in 2017 and the rest is history. LoL is a game that has 172 champions to choose from.
         Initially, the choice in picking a champion was very daunting. Nevertheless, I settled my first champion to
@@ -24,12 +26,11 @@ function MyHobby() {
 
         <newline />
         "Who wants a piece of the champ?!"
-    </p>
+       </p>
+       </main>
     )
 }
 
 root.render(
-    <main>
         <MyHobby />
-    </main>
 )
